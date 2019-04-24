@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER  DevOpsTech
+MAINTAINER  poojan007
 
 RUN yum -y install httpd git && git clone https://github.com/poojan007/dockerrepo.git /var/www/html/
 EXPOSE 80
